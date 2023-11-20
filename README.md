@@ -1,5 +1,5 @@
 # Votacions-Blockchain
-<h2>Requisits previs</h2>
+<h2>1.Requisits previs</h2>
 <ul>
 <li>Apache 2.4 o superior</li>
   <li>Mysql 5 o superior</li>
@@ -7,12 +7,12 @@
   <li>Mòduls openssl <br/>compilar PHP --with-openssl[=DIR].</li>
 </ul>
 
-<h2>Instal·lació</h2>
+<h2>2.Instal·lació</h2>
 <p>Creació BBDD al servidor amb el fitxer /SQL/votacions.sql</p>
 <p>Configuració fitxers bd.php amb credencials accès a la BBDD.</p>
 <p>Creació usuari administrador, taula "users"</p>
 
-<h2>Mòdul admin</h2>
+<h2>3.Mòdul administració</h2>
 <p>Accès via /admin</p>
 <p>Opcions disponibles:
 <ul>
@@ -26,5 +26,5 @@
 </ul>
 </p>
 
-<h2>Mòdul votacions</h2>
+<h2>4.Mòdul votacions</h2>
 <p>Accès via index.php</p>
