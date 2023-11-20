@@ -1,0 +1,1587 @@
+/* CSS Document */
+body
+{
+	background-color:#e0c655;
+	background-color:#2983b3;
+    background-repeat: no-repeat;
+	background-position:  0 100%;
+}
+.logos
+{
+	width:100%!important;border: 1px solid #000000;background-color:#ffffff;height:150px;text-align:center;margin-top:20px;
+}
+
+.logosHome
+{
+	height:120px;text-align:center;margin-top:20px;
+	width:90%!important;
+	margin-left:400px;
+}
+.logos img
+{
+	height:140px;
+}
+.loading
+{
+	background-color:#e6c52c;width:100%;height:1000px;position:absolute;left:0px;top:0px;opacity:0.7;z-index:10; text-align:center;display: table;
+	display: none;
+}
+.loadingimg
+{
+	display: table-cell;vertical-align: middle;
+}
+
+#texte, .texte
+{
+	font-size: 45px;
+    font-style: italic;
+}
+
+#cartell1
+{
+  margin-left:500px;font-weight:bold;border: 3px solid #000000; padding:30px;color:#000000;border-radius: 35px;background-color:#ffffff; width:550px;text-align:center;font-size:30px;
+  margin-top:50px;
+}
+
+#avis3de6
+{
+  z-index:10000;width:100%;background-color:#ffffff;color:#000000;font-weight:bold;width:1200px;position:absolute;left:350px;top:150px;border:5px solid #000000; height:700px;font-size:95px;text-align:center;padding:40px;
+  display:none;
+}
+
+#botoComencar{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 50px;
+    font-style: normal;
+    color: #ffffff;
+    background-color: #1e2225;
+    border-radius: 15px;
+    border: 3px double #140b3e;
+	width:550px;
+	height:100px;
+	margin-left:500px;
+	margin-top:200px;
+}
+#botoComencar:hover{
+	opacity: 0.6;
+	text-decoration: none;
+}
+
+#ajunt
+{
+	background-image: url("escut.png");
+	background-repeat: no-repeat;
+	background-position:  95% 93%; 
+	background-position:  93% 3%; 
+	background-position:  3% 3%; 
+	height:250px;
+	position:absolute;top:0px;align:right;width:100%;height:100%;left:0px;	
+}
+  
+#intro
+{
+	background-image: url("fons-home-1000.jpg");
+	background-repeat: no-repeat;
+	background-position:  0% 0%; 
+	width:712px;
+	height:100%!important;
+	position:absolute;top:0px;align:right;
+	left:0px;	
+}
+
+#introMob
+{
+	background-image: url("fons-home-350.jpg");
+	background-repeat: no-repeat;
+	background-position:  top center; 
+	width:350px;
+	height:100%!important;
+	position:absolute;top:0px;align:right;
+	left:0px;	
+	display:none;
+}  
+  
+#formulari1
+{
+	height:600px;width:100%;
+	text-align:center;
+}
+#botoEndarrera:hover, #botoEndavant:hover, #botoEndarreraSol:hover, #botoTancarDiv:hover {
+	opacity: 0.6;
+    text-decoration: none;
+}	
+#botoEndarrera:focus, #botoEndavant:focus, #botoEndarreraSol:focus, #botoTancarDiv:focus, #botoComencar:focus, #botoCancelar:focus,  #endavant:focus {
+	border-color: #ffffff;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 1) inset, 0px 0px 8px rgba(0, 0, 0, 1);
+}
+#botoEndavant {
+  left:500px;
+}
+#botoTancarDiv {
+  margin-top:100px;
+}
+#botoEndarreraSol
+{
+  left:0px;
+}
+.titol1, .titol2, .titol1Final,.titol1FinalJ
+{
+	font-family: helvetica;
+    font-weight: 400;
+    font-size: 75px;
+	text-align:center;
+	width:100%;
+	color:#1f291e;
+	color:#ffffff;
+	font-weight:bold;
+	padding:15px;
+}
+.titol1Final
+{
+	font-size: 35px;
+	margin-top:30px;
+	font-size: 50px;
+	margin-top:0px;	
+	
+}
+.titol1FinalJ
+{
+	font-size: 60px;
+}
+.titol2
+{
+	font-size: 55px;
+	margin-bottom:40px;
+}
+.titol1{ margin-bottom:80px; }
+
+.inicial 
+{
+	margin-top:-100px;
+}	
+.dates, .dates4
+{
+	float:left;
+	width:20%;
+}
+.dates4
+{
+	width:40%;
+}
+.caixetadeDates
+{
+	display:block;text-align:center;margin-left:200px;
+}	
+.form input {
+  font-family: helvetica;
+  outline: 0;
+  background: #f2f2f2;
+  width: 550px!important;
+  color:#1f291e;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 37px!important;
+  text-align:center;
+  border:2px solid #000000;
+  height:100px;
+  text-align:center;
+}	
+.form input.caixadata
+{
+	  width: 150px!important;
+}
+.form input.caixadata4
+{
+	  width: 270px!important;
+}
+
+.form input.telefon
+{
+	width: 550px!important;
+	height:100px!important;
+	background-image: url("phone-80.png");
+	background-position: 5px 5px;
+    background-repeat: no-repeat;
+	padding-left:30px; 
+}
+
+.blockfotos
+{
+	display:block;float:left;width:100%;width:1500px;margin-left:-200px;margin-top:-60px;
+	
+}
+.blockfotos2
+{
+	background:#dd0000;
+	margin-left:-200px;
+	width:1500px!important;
+}
+
+.div-general-img
+{
+	width:300px;
+	width:450px;
+}
+	 
+.img, .img2
+{
+	margin:5px;
+	padding:15px;
+	width:450px!important;
+	height:280px!important;
+	float:left;
+	margin-right:30px;
+	margin-bottom:30px;
+	margin-bottom:10px;
+}
+ 
+.img-selected
+{
+background-color:#1afe09;
+background-color:#10225e;
+}	
+	
+#botoEndarreraSol, #botoTancarDiv
+{
+	text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 45px;
+    
+	font-weight:bold;
+	color: #000000;
+    background-color: #fefefe;
+    border-radius: 15px;
+    border: 3px solid #05024f;
+	width:400px;
+	height:80px;
+	
+	background-color:#000000;
+	color:#ffffff;
+	margin-top:200px;
+}
+
+ #botoEndarrera, #botoEndavant{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 45px;
+    
+	font-weight:bold;
+	color: #000000;
+    background-color: #fefefe;
+    border-radius: 15px;
+    border: 3px solid #05024f;
+	width:400px;
+	height:80px;
+	position:absolute;
+	bottom:35px;
+
+	background-color:#000000;
+	color:#ffffff;
+
+	position:relative;
+	margin-top:200px;
+ }
+
+
+@media (min-width: 1000px) and (max-width: 1200px) {	
+		#introMob
+		{
+			display:block;
+			text-align:center;
+			width:1050px%!important;
+			background-image: url("fons-home-1000.jpg");
+			width:1050px;
+			height:100%!important;
+			position:absolute;top:0px;align:right;
+			left:0px;	
+		}
+		#intro
+		{
+		  display:none;
+		  margin-top:300px;
+		}
+
+
+		#botoComencar{
+			/*margin-left:150px;*/
+			text-align:center;
+			margin-top:50px!important;
+			border: 2px double #140b3e;
+			width:800px;
+			margin-left:0px;
+				
+		}	
+		#cartell1{
+			text-align:center;
+			margin-top:950px!important;
+			margin-left:10px;
+			width:800px;
+			height:400px;
+			font-size:45px;
+		}
+
+
+		#botoEndavant {
+		  
+		  width:320px;
+		  bottom:100px;
+		}
+		#botoEndarreraSol
+		{
+		  bottom:200px;
+		}
+		#botoEndarrera
+		{
+		  bottom:100px;
+		}
+		  
+		#botoEndavant, #botoEndarrera, #botoEndarreraSol {
+			height:70px;
+			font-size:25px;
+			padding: 2px;
+			padding-left: 8px;
+			padding-right: 8px;
+			font-weight: 270;
+		}
+		#formulari1
+		{
+			text-align:center;
+			
+		}
+		.form input {
+		  margin-left:50px;
+
+		}	
+		.caixetadeDates
+		{
+		margin-left:100px;
+		}			
+		#ajunt
+		{
+			background-position:  97% 4%; 
+		}
+			
+		.form input
+		{
+			width: 450px!important;
+			font-size: 34px!important;
+			height:90px;
+		}	
+		.form input.caixadata
+		{
+			  width: 100px!important;
+		}
+		.form input.caixadata4
+		{
+			  width: 200px!important;
+		}
+		.div-general-img
+		{
+		width:440px;
+		}
+		 
+		.img, .img2
+		{
+			border-radius:20px;
+			margin:3px;
+			padding:10px;
+			margin-top:50px;
+
+		}
+		.img2
+		{
+			width:500px!important;
+			height:300px!important;
+			font-size:35px;
+			margin-top:100px;
+		}
+		.blockfotos
+		{
+			margin-top:-50px; text-align:center;width:1000px;
+			margin-left:-20px;
+
+		}
+		element.style
+		{
+			background:#009651;
+		}			
+		.logosFinal{
+			margin-left:0px;
+			max-width:100%;
+		}			
+		.blockfotos2
+		{
+			background-color:#2983b3;
+			margin-top: -50px;
+			text-align: center;
+			width: 800px;
+			margin-left: -70px;
+			display: block;
+			float: left;
+		}
+		#avis3de6
+		{	
+		text-align:center;
+		width:80%!important;
+		left:10%!important;
+		top:200px;
+		height:1000px;
+		padding:20px;	
+		font-size:70px;
+		}
+		#botoTancarDiv {
+			margin-top:200px;
+		}
+					
+		.titol1Final
+		{
+			font-size: 32px;
+		}
+		.titol1FinalJ
+		{
+			font-size: 50px;
+		}		
+		
+		.logosHome
+		{
+			margin-left:-20px;
+			margin-top:50px;
+			width:100%!important;
+		}
+				
+		#botoEndarrera, #botoEndavant{
+			position: absolute;
+			margin-top: 200px;
+			margin-bottom: 100px;
+						}	
+		#botoEndavant{
+			margin-left:150px;
+		}	
+
+		#botoEndarreraSol{
+			position: absolute;
+			margin-top: 200px;
+			margin-bottom: 100px;
+			left:33%;
+		}
+}
+
+
+  
+.form input
+{
+    width: 400px!important;
+	font-size: 30px!important;
+	height:70px;
+}	
+
+.caixetadeDates
+{
+margin-left:110px;
+}			
+
+.form input.caixadata
+{
+	  width: 100px!important;
+}
+.form input.caixadata4
+{
+	  width: 170px!important;
+}
+
+#botoEndavant {
+  /*left:700px;*/
+  /*width:210px;*/
+  bottom:0px;
+}
+#botoEndarreraSol
+{
+  /*left:20px;*/
+  /*width:280px;*/
+  bottom:0px;
+}
+#botoEndarrera
+{
+ /* left:100px;*/
+  /*width:210px;*/
+  bottom:0px;
+}
+#botoEndavant, #botoEndarrera, #botoEndarreraSol {
+  height:80px;
+  font-size:28px;
+  
+padding: 2px;
+padding-left: 6px;
+padding-right: 6px;
+font-weight: 250;
+max-width:330px;
+height:80px;
+
+}
+		  
+.titol1Final
+{
+	font-size: 30px;
+}
+.titol1FinalJ
+{
+	font-size: 45px;
+}		
+					
+
+		  
+
+
+@media (min-width: 450px) and (max-width: 800px) {	
+
+	.pantallaSeleccio
+	{
+	margin-bottom:60px!important;
+	}
+	#formulari1
+	{
+		text-align:center;
+		margin-bottom:0px!important;			
+	}
+
+	#grupFotoNOCHECK, .grupFotoNOCHECK
+	{
+		width:100%!important;
+
+	}
+	.grupFoto{
+	min-height:auto!important;
+	}
+
+	.form input
+	{
+		width: 300px!important;
+		font-size: 30px!important;
+		height:70px;
+	}	
+
+	#botoEndavant {
+	/*left:700px;*/
+	width:190px;
+	bottom:0px;
+	}
+	#botoEndarreraSol
+	{
+	/*left:20px;*/
+	/*  width:250px;*/
+	bottom:0px;
+	}
+	#botoEndarrera
+	{
+	/* left:100px;*/
+	/*width:190px;*/
+	bottom:0px;
+	}
+	#botoEndavant, #botoEndarrera, #botoEndarreraSol {
+	height:65px;
+	font-size:20px;
+
+	padding: 1px;
+	padding-left: 4px;
+	padding-right: 4px;
+	font-weight: 200;			  
+	max-width:140px;
+			height:34px;
+	}
+
+	.titol1Final
+	{
+		font-size: 27px;
+	}
+	.titol1FinalJ
+	{
+		font-size: 40px;
+	}		
+}
+
+		  
+@media (min-width: 300px) and (max-width: 450px) {	
+
+
+	.img, .img2
+	{
+left:0px;
+max-width:320px;
+margin:0px!important;
+padding:20px!important;
+		border-radius:10px!important;
+		
+	}		
+.pantallaSeleccio
+{
+margin-bottom:60px!important;
+}
+#formulari1
+		{
+			text-align:center;
+margin-bottom:0px!important;			
+		}
+#grupFotoNOCHECK, .grupFotoNOCHECK
+{
+	width:100%!important;
+	min-height:auto!important;
+}
+.grupFoto{
+width: 100%!important;
+min-height:auto!important;
+}
+ #botoEndavant
+ {
+	 left:100px;
+ }
+.logos
+{
+height:90px;
+}
+
+.logos img
+{
+	height:80px;
+}
+.titol1Final, .titol1FinalJ
+{
+	margin-top:10px!important;
+	margin-bottom:0px!important;
+}
+					#avis3de6
+					{	
+					width:350px;
+					left:20px;
+					top:150px;
+					height:200px;
+					font-size:25px;
+					padding:20px;	
+					}
+
+
+					 #botoEndarrera:hover, #botoEndavant:hover, #botoEndarreraSol:hover {
+						opacity: 1!important;
+					 }	
+						#introMob
+					  {
+						  display:block;
+						  text-align:center;
+						  width:100%!important;
+					  }
+					  #intro
+					  {
+						  display:none;
+					  }
+
+
+					#botoEndarrera, #botoEndavant, #botoEndarreraSol, #botoTancarDiv{
+						font-weight: 180;
+						font-size: 14px;
+						border-radius: 5px;
+						border: 2px solid #05024f;
+						/*width:120px;*/
+						height:30px;
+						
+    padding: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: 130;			  
+	max-width:100px;
+							height:34px;						
+					 }
+
+					#botoTancarDiv
+					{
+						/*left:100px;*/
+					}
+
+					#botoComencar{
+							margin-left:20px;
+							margin-top:50px;
+						font-weight: 150;
+						font-size: 20px;
+						border-radius: 10px;
+						border: 2px double #140b3e;
+						width:200px;
+						height:40px;
+							
+					}	
+					#cartell1{
+					margin-top:400px;
+					left:0px;
+					margin-left:-20px;
+					width:300px!important;
+					height:230px;
+					font-size:20px;
+					
+					}
+					
+		.caixetadeDates
+		{
+		margin-left:60px;
+		
+		}	
+
+
+
+					.titol1, .titol2, .titol3, .titol1Final,.titol1FinalJ
+					{
+						font-family: helvetica;
+						font-weight: 200;
+						font-size: 30px;
+						text-align:center;
+						width:100%;
+						color:#ffffff;
+						font-weight:bold;
+					}
+					
+					.titol1Final
+					{
+						margin-top:50px;
+						font-size: 16px;
+					}
+					.titol1FinalJ
+					{
+						font-size: 22px;
+					}
+					.titol1Final
+					{
+						font-size: 16px;
+					}
+					.titol2
+					{
+							font-size: 30px;
+					}
+					.form input {
+					  width: 280px!important;
+					  width: 80%!important;
+					  font-size: 20px!important;
+					  /*margin-left:30px;*/
+					  height:40px;
+					}	
+					
+
+.form input.telefon
+{
+	background-image: url("phone-30.png");
+	    background-position: 5px 5px;
+    background-repeat: no-repeat;
+	padding-left:30px;
+		  width: 200px!important;
+	  height:45px!important;
+}
+		.form input.caixadata
+		{
+			  width: 50px!important;
+			  font-size:16px!important;
+		}
+		.form input.caixadata4
+		{
+			  max-width: 80px!important;
+			  font-size: 16px!important;
+		}
+		
+
+					  /*#botoEndavant {
+						  left:200px;
+					  }
+					  #botoEndarreraSol
+					  {
+						  left:20px;
+					  } */
+					  #ajunt
+					  {
+						 background-image: url("escut-m.png");
+						background-repeat: no-repeat;
+						/*background-position:  94% 96%; */
+						background-position:  96% 6%; 
+						
+					  }
+					.div-general-img
+						{
+						width:140px;
+						}
+						 
+						.img, .img2
+						{
+						margin:3px;
+						padding:5px;
+						font-size:12px;
+						padding-top:10px;
+						line-height:15px;
+	
+	
+						}
+						
+						.img2
+						{
+							margin-left:70px;
+							margin-top:100px;
+						}
+						
+						.volta
+						{
+							padding-bottom:120px;
+						}
+						
+						/*.img2
+						{
+						width:240px!important;
+						height:180px!important;
+						}					*/	
+					.blockfotos, .blockfotos2
+					{
+						
+						width:320px!important;
+					margin-left:-20px;margin-top:-100px;}
+					
+					.blockfotos2
+					{
+						width:320px!important;
+					}
+					
+					.logosHome
+					{
+						margin-top:20px!important;
+						margin-left:-30px!important;
+						width:100%!important;
+					}
+
+}
+
+
+
+
+/*minis */
+@media (min-width: 100px) and (max-width: 370px) {	
+
+
+					#avis3de6
+					{	
+					width:300px;
+					left:10px;
+					top:90px;
+					height:300px;
+					font-size:30px;
+					padding:10px;	
+					}
+
+
+						.volta
+						{
+							padding:5px;
+							padding-bottom:95px;
+							
+						}
+
+					#botoEndarrera, #botoEndavant, #botoEndarreraSol, #botoTancarDiv{
+
+																			    padding: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: 90;			  
+	max-width:75px;
+																			
+/*						height:40px;*/
+					 }
+
+					#botoTancarDiv
+					{
+						/*left:100px;*/
+					}
+
+					#botoComencar{
+																	margin-left:0px;
+							
+					}	
+					#cartell1{
+
+															margin-left:-30px;
+															width:250px!important;
+															font-size:15px;		
+															height:180px;
+					
+					
+					}
+					
+
+
+
+					.titol1, .titol2, .titol3, .titol1Final,.titol1FinalJ
+					{
+
+																color:#ffffff!important;
+																font-size: 20px;
+
+					}
+					
+					
+					
+					.titol1Final
+					{
+						margin-top:30px;
+						font-size: 14px;
+					}
+					.titol1FinalJ
+					{
+						font-size: 16px;
+					}
+					.titol2
+					{
+							font-size: 15px;
+					}
+					.titol3
+					{
+						
+						font-size:12px;
+						margin-top:-30px;
+					}
+
+
+
+		.form input.caixadata
+		{
+													width: 40px!important;
+													font-size:13px!important;
+													margin-right:0px;
+		}
+		.form input.caixadata4
+		{
+													width: 70px!important;
+													font-size:13px!important;
+		}
+		
+					.blockfotos, .blockfotos2
+					{width:280px!important;
+					margin-left:-20px;margin-top:-120px;}
+
+						 
+						.img, .img2
+						{
+									padding-top:5px;
+									line-height:12px;
+									margin-right:20px;
+									margin-bottom:10px;	
+									
+							/*		
+									width:110px!important;
+									height:150px!important;*/
+									font-size:9px;
+
+	
+						}
+						.img2
+						{
+								margin-left:85px;
+						
+						}
+				
+					.logoshome
+					{
+						margin-left:-5px;
+						width:100%!important;
+					}
+
+}
+
+
+
+#botoCancelar, #botoConfirmar, #botoConfirmarOperacio {
+	text-align:left;
+    background-image: url( "img/cancelar.png" );
+    background-size: 150px 33px ;
+    height: 33px;  
+    width: 150px;
+	background-repeat: no-repeat;
+	background-color: Transparent;
+}
+
+#botoConfirmar {
+    background-image: url( "img/confirmar.png" );
+}
+
+#botoConfirmarOperacio {
+    background-image: url( "img/resumen_operacion.png" );
+}
+
+#botoMenos50,#botoMenos10,#botoMes10,#botoMes50{
+    background-size: 77px 45px ;
+    height: 50px;  
+    width: 77px;
+	background-repeat: no-repeat;
+	background-color: Transparent;
+	background-image: url( "img/_50.png" );
+}
+#botoMenos10{
+	background-image: url( "img/_10.png" );
+}
+#botoMes10{
+	background-image: url( "img/10.png" );
+}
+#botoMes50{
+	background-image: url( "img/50.png" );
+}
+
+#import
+{
+	   border-radius: 5px;
+   border: 4px solid #523f8d;
+   text-align: center;
+	
+}
+/*
+#botoVolverOperar {
+	text-align:center;
+    background-image: url( "img/volver_a_operar.png" );
+    background-size: 300px 32px ;
+    height: 32px;  
+    width: 300px;
+	background-repeat: no-repeat;
+	background-color: Transparent;
+}
+
+#botoImprimir {
+	text-align:center;
+    height: 32px;  
+    width: 300px;
+
+}
+
+#textWalletFinal, #textWalletFinalV, #textImportFinal, #textOperacioFinal, #textOperacioFinalV
+{
+	padding-left:320px;
+	padding-top:6px;
+    background-image: url( "img/wallet_resumen.png" );
+    background-size: 650px 35px ;
+    height: 35px;  
+    width: 650px;
+	background-repeat: no-repeat;
+	background-color: Transparent;
+}
+#textWalletFinalV
+{
+	background-image: url( "img/wallet_venta2_resumen.png" );
+}
+#textImportFinal
+{
+	background-image: url( "img/importe_resumen.png" );
+}
+#textOperacioFinal
+{
+	background-image: url( "img/comprar_resumen.png" );
+}
+#textOperacioFinalV
+{
+	background-image: url( "img/vender_resumen.png" );
+}
+#textEquivalent, #textFee
+{
+	padding-left:200px;
+	padding-top:-10px;
+    background-image: url( "img/equivalente.png" );
+    background-size: 480px 27px ;
+    height: 27px;  
+    width: 480px;
+	background-repeat: no-repeat;
+	background-color: Transparent;
+}
+#textFee
+{
+	background-image: url( "img/fee_exchange.png" );
+}
+*/
+/*
+#texteUsuari, #texteContrasena
+{
+	padding-left:220px;
+    background-image: url( "img/usuari.png" );
+    background-size: 600px 32px ;
+    height: 32px;  
+    width: 600px;
+	background-repeat: no-repeat;
+	background-color: Transparent;
+}
+#texteContrasena
+{
+	background-image: url( "img/contrasena.png" );
+}
+.sphere h3
+{background-color: #3b8ec2;
+color: white;
+padding:5px 8px;}
+
+.newood h3
+{background-color: black;
+color: white;
+padding:5px 8px;}
+.enllach
+{display: block;
+color: black;
+background-color: #f1f1f1;
+padding:5px 8px;
+margin-bottom:8px;}
+
+.homex
+{font-weight:bold;
+font-size:18px;
+padding-left:8px;
+margin-bottom:15px;
+}
+*/
+table
+{padding:0px !important;}
+
+.inici
+{padding-top:100px;}
+
+.inici h2
+{font-size:18px;}
+
+.form-signin {
+  /*max-width: 420px;*/
+  padding: 15px;
+  margin: 0 auto;
+}hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 3px solid #000 !important;
+}
+
+/*
+.envia-cistella
+{width:170px !important;
+float: right;}
+.navbar-form 
+{width:100%;
+margin-top:0px !important;}
+
+input.buscar
+{width:100px !important;
+ margin-bottom:0px !important;
+ margin-top:0px !important;
+float: right;}
+
+
+input#texte
+{width:300px !important;}
+.telefon
+{background-image: url(../images/telefon.png);
+background-position:left 6px center;
+
+background-color: #f6f4f4;
+padding:10px;
+padding-left:30px;
+margin-top:5px;
+border-radius:5px;
+height:40px !important;
+color: #666 !important;
+font-size:14px !important;
+margin-left:0px !important;
+background-repeat:no-repeat;}
+*/
+table
+{font-size:14px;}
+
+.table-striped
+{padding:2px !important;}
+/*
+.outlet
+{background-color: #2F2F2F;
+color: white;
+margin-right:-15px;
+text-transform:uppercase;
+height:40px;
+padding:10px 25px;
+
+text-align: center;}
+
+.unitats
+{width:40px;}
+*/
+.minifoto img
+{width:50px;
+height:auto;}
+
+.usuari
+{padding-top:15px;
+padding-right:10px;}
+.bread
+{padding-left:20px;
+padding-top:10px;}
+
+.barra
+{background-color: #EBE9E9;
+margin-top:20px;
+margin-bottom:15px;
+padding-top:10px;
+min-height:60px;}
+
+.barra2
+{background-color: #f6f6f6;
+margin-top:20px;
+margin-bottom:20px;
+height:40px;
+}
+.principal
+{margin-top:80px;}
+
+/*
+.import
+{font-weight: bold;}
+
+.cistella
+{float: right;
+background-image:url(../images/cistella.png);
+background-repeat:no-repeat;
+background-position: left 10px center;
+width:240px;
+padding:10px;
+padding-left:40px;
+border:1px solid #ccc;}
+.navbar-inverse a
+{
+color: black !important;
+}
+.navbar-inverse
+{background-color: #eaeaea !important;
+color: black !important;
+border: none !important;}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+*/
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+.enlarge{
+list-style-type:none; /*remove the bullet point*/
+margin-left:0;
+}
+.enlarge div{
+display:inline-block; /*places the images in a line*/
+position: relative;
+z-index: 0; /*resets the stack order of the list items - later we'll increase this*/
+margin:0px 10px 0 10px;
+}.table-responsive {
+    min-height: .01%;
+    overflow-x: none !important;
+}
+
+td.imatge
+{max-width:80px;}
+.enlarge img{
+
+}
+
+
+
+
+@media (min-width: 991px) and (max-width: 1200px) {	
+
+
+
+
+.grupFotoTexte
+{
+	/*height:auto!important;*/
+	min-height:350px;
+
+}
+
+#grupFotoTexte, .grupFotoTexte
+{
+	font-size:17px;
+}
+.grupFotoTitol, .grupFotoPressupost
+{
+	font-size:20px;
+	/*height:auto!important;*/
+}
+.grupFotoPressupost
+{
+	font-size:20px;
+}
+
+.titol1 {
+	font-size:55px;
+}
+.titol2 {
+	font-size:45px;
+}
+.titol3 {
+	font-size:35px;
+}
+
+}
+
+
+@media (min-width: 801px) and (max-width: 990px) {	
+
+#grupFotoNOCHECK, .grupFotoNOCHECK
+{
+	width:100%!important;
+}
+.grupFoto{
+width: 100%!important;
+}
+
+.grupFotoTexte
+{
+	height:auto!important;
+
+}
+
+#grupFotoTexte, .grupFotoTexte
+{
+	font-size:21px;
+}
+.grupFotoTitol, .grupFotoPressupost
+{
+	font-size:24px;
+	height:auto!important;
+}
+.grupFotoPressupost
+{
+	font-size:21px;
+}
+
+.titol1 {
+	font-size:50px;
+}
+.titol2 {
+	font-size:40px;
+}
+.titol3 {
+	font-size:30px;
+}
+.form input.caixadata
+{
+	  width: 120px!important;
+	  font-size:18px!important;
+	  height:70px!important;
+}
+.form input.caixadata4
+{
+	  width: 180px!important;
+	  font-size:18px!important;
+	  height:70px!important;
+}
+.caixetadeDates
+{
+margin-left:100px!important;
+}
+
+}
+
+
+@media (min-width: 451px) and (max-width: 800px) {	
+
+#grupFotoNOCHECK, .grupFotoNOCHECK
+{
+	width:100%!important;
+}
+.grupFoto{
+width: 100% !important;
+min-height:auto!important;
+}
+
+.grupFotoTexte
+{
+	height:auto!important;
+}
+
+#grupFotoTexte, .grupFotoTexte
+{
+	font-size:17px;
+}
+.grupFotoTitol, .grupFotoPressupost
+{
+	font-size:20px;
+	height:auto!important;
+}
+.grupFotoPressupost
+{
+	font-size:16px;
+}
+
+.titol1 {
+	font-size:45px;
+}
+.titol2 {
+	font-size:35px;
+}
+.titol3 {
+	font-size:25px;
+}
+.form input {
+	width:340px!important;
+	height:60px!important;
+	font-size: 24px!important;
+}
+.form input.caixadata
+{
+	  width: 100px!important;
+	  font-size:17px!important;
+	  height:60px!important;
+}
+.form input.caixadata4
+{
+	  width: 160px!important;
+	  font-size:17px!important;
+	  height:60px!important;
+}
+.caixetadeDates
+{
+margin-left:80px!important;
+}
+
+}
+
+@media (min-width: 601px) and (max-width: 750px) {	
+
+.form input.caixadata
+{
+	  width: 70px!important;
+	  height:50px!important;
+	  font-size:16px!important;
+}
+.form input.caixadata4
+{
+	  width: 120px!important;
+	  height:50px!important;
+	  font-size:16px!important;
+}
+
+}
+
+@media (min-width: 451px) and (max-width: 600px) {	
+.titol1 {
+	font-size:40px;
+}
+.titol2 {
+	font-size:30px;
+}
+.titol3 {
+	font-size:20px;
+}
+.form input {
+	width:300px!important;
+	height:50px!important;
+	font-size: 22px!important;
+}
+
+.form input.caixadata
+{
+	  width: 60px!important;
+	  height:40px!important;
+	  font-size:16px!important;
+}
+.form input.caixadata4
+{
+	  width: 90px!important;
+	  height:40px!important;
+	  font-size:16px!important;
+}
+
+}
+
+@media (min-width: 200px) and (max-width: 450px) {	
+.grupFotoTexte
+{
+	height:auto!important;
+}
+
+.grupFotoImatge
+{
+	padding:1px;
+}
+.grupFotoTexte
+{
+	padding:5px;
+}	
+
+
+#grupFotoTexte, .grupFotoTexte
+{
+	font-size:12px;
+	min-width:120px;
+}
+.grupFotoTitol, .grupFotoPressupost
+{
+	font-size:17px;
+	height:auto!important;
+}
+.grupFotoPressupost
+{
+	font-size:15px;
+}
+
+.titol1 {
+	font-size:30px;
+}
+.titol2 {
+	font-size:20px;
+}
+.titol3 {
+	font-size:17px;
+}
+.form input {
+	width:240px!important;
+	height:40px!important;
+	font-size: 20px!important;
+}
+
+
+.form input.caixadata
+{
+	  width: 50px!important;
+	  font-size:15px!important;
+}
+.form input.caixadata4
+{
+	  width: 75px!important;
+	  font-size:15px!important;
+}
+
+}
