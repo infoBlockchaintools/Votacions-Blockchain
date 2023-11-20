@@ -30,7 +30,7 @@
 <p>Accès via index.php</p>
 
 <h2>Promotor</h2>
-<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/150163387/284251179-9c869412-15b8-4670-924c-8bd725731521.jpg"/>
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/150163387/284251179-9c869412-15b8-4670-924c-8bd725731521.jpg" width="400px"/>
 
 <h2>Finançament de:</h2>
-<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/150163387/284251244-df27d560-8f88-4ffa-a1ee-1256000f6e8d.jpg"/>
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/150163387/284251244-df27d560-8f88-4ffa-a1ee-1256000f6e8d.jpg"  width="400px"/>
