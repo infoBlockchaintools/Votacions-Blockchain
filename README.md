@@ -30,7 +30,7 @@
 <p>Accès via index.php</p>
 
 <h2>Promotor</h2>
-![empresa_h3](https://github.com/infoBlockchaintools/Votacions-Blockchain/assets/150163387/9c869412-15b8-4670-924c-8bd725731521)
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/150163387/284251179-9c869412-15b8-4670-924c-8bd725731521.jpg"/>
 
 <h2>Finançament de:</h2>
-![Logo-Ministeri-2022](https://github.com/infoBlockchaintools/Votacions-Blockchain/assets/150163387/df27d560-8f88-4ffa-a1ee-1256000f6e8d)
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/150163387/284251244-df27d560-8f88-4ffa-a1ee-1256000f6e8d.jpg"/>
