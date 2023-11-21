@@ -557,7 +557,9 @@ else if ($_REQUEST["pas"]==4)
 		$sql = "INSERT INTO 2_blockchain (idPublica,sInformacio,idSeguretat) VALUES ('" . dechex($valor) . "','" . base64_encode($cadenaEncriptada) . "','" . $idSeguretat . "')";
 		$conn->Select($sql,$link);		
 
-		$url = "https://vps001.blockchaintools.es/enviar.php?valor=" . $cadenaAEscriure;
+		//Crida via API per l'enviament a la cadena Blockchain
+		//apiKey="#################";
+		//$url = "#################";
 		$resultat = file_get_contents($url);
 		
 		if (substr($resultat,0,2)=="0x")
